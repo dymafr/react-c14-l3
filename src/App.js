@@ -7,6 +7,7 @@ function App() {
     handleSubmit,
     formState: { errors },
   } = useForm({
+    // mode: 'onBlur',
     defaultValues: {
       name: '',
     },
